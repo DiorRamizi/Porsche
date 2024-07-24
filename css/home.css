@@ -1,0 +1,53 @@
+.nav-link{
+
+    margin: 0px 12px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.mainp{
+    margin: 10px;
+    font-size: large;
+    text-align: center;
+}
+.card {
+    margin: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-10px);
+}
+.videot{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 40px;
+background-color: black;
+height: 250px;
+align-items: center;
+
+}
+footer{
+text-align: center;
+background-color: black;
+color: white;
+bottom: 0;
+height: 200px;
+padding: 40px;
+}   
+
+.endlogo{
+
+    margin: 30px;
+    justify-content: center;
+}
+
